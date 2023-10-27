@@ -1,7 +1,7 @@
 REPOSITORY=/home/ubuntu/gitActionsPractice
 cd $REPOSITORY
 
-APP_NAME=gitactions
+APP_NAME=gitActionsPractice
 JAR_NAME=$(ls $REPOSITORY/build/libs/ | grep 'SNAPSHOT.jar' | tail -n 1)
 JAR_PATH=$REPOSITORY/build/libs/$JAR_NAME
 
